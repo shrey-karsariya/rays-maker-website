@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <!-- Navy Blue Rounded Background (#0B1D51) -->
+  <rect width="100" height="100" rx="26" fill="#0B1D51"/>
+  
+  <!-- Stylized Elegant Letter 'R' in White -->
+  <text x="46" y="68" font-family="'Poppins', 'Inter', system-ui, -apple-system, sans-serif" font-weight="900" font-size="56" fill="#FFFFFF" text-anchor="middle">R</text>
+  
+  <!-- Accent Flame/Heat dot (#E31E24) -->
+  <circle cx="73" cy="33" r="8" fill="#E31E24" />
+</svg>
