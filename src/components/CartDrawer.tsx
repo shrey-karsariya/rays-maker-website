@@ -26,13 +26,13 @@ export function CartDrawer() {
 
   // Generate WhatsApp order message
   const generateWhatsAppLink = () => {
-    let message = `Hello Rays Maker! I would like to place an order for the following cookware:\n\n`;
+    let message = `Hello KitchStar Maker! I would like to place an order for the following cookware:\n\n`;
     cart.forEach((item, index) => {
       message += `${index + 1}. *${item.product.name}* (${item.product.size})\n   Qty: ${item.quantity} x ${formatINR(item.product.price)} = ${formatINR(item.product.price * item.quantity)}\n`;
     });
     message += `\n*Subtotal: ${formatINR(subtotal)}*\n\nPlease guide me on the next steps for payment and shipping. Thank you!`;
     
-    return `https://wa.me/919999999999?text=${encodeURIComponent(message)}`;
+    return `https://wa.me/919876543210?text=${encodeURIComponent(message)}`;
   };
 
   return (

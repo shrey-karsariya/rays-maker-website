@@ -15,13 +15,13 @@ export const Route = createFileRoute("/product/$id")({
   head: ({ loaderData }) => ({
     meta: loaderData
       ? [
-          { title: `${loaderData.product.name} — Rays Maker` },
+          { title: `${loaderData.product.name} — KitchStar Maker` },
           { name: "description", content: loaderData.product.description },
           { property: "og:title", content: loaderData.product.name },
           { property: "og:description", content: loaderData.product.tagline },
           { property: "og:image", content: loaderData.product.image },
         ]
-      : [{ title: "Product — Rays Maker" }],
+      : [{ title: "Product — KitchStar Maker" }],
   }),
   component: ProductPage,
   notFoundComponent: () => (

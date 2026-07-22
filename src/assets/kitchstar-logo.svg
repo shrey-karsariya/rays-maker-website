@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 50" class="brand-logo-svg" width="240" height="50">
+  <defs>
+    <linearGradient id="starGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff4d52" />
+      <stop offset="100%" stop-color="#cc1e23" />
+    </linearGradient>
+    <linearGradient id="silverGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#c0c0c5" />
+    </linearGradient>
+  </defs>
+  <!-- Icon: Styled Star inside a circle (cookware plate style) -->
+  <g transform="translate(5, 5)">
+    <!-- Outer ring -->
+    <circle cx="20" cy="20" r="18" fill="none" stroke="url(#silverGrad)" stroke-width="2.5" opacity="0.9"/>
+    <!-- Inner star -->
+    <path d="M 20 7 L 23.5 14.5 L 31.5 15.5 L 25.5 20.8 L 27.2 28.5 L 20 24.5 L 12.8 28.5 L 14.5 20.8 L 8.5 15.5 L 16.5 14.5 Z" fill="url(#starGrad)"/>
+    <!-- Dot in the center -->
+    <circle cx="20" cy="20" r="2" fill="#ffffff"/>
+  </g>
+  <!-- Text -->
+  <text x="55" y="27" font-family="'Outfit', sans-serif" font-weight="800" font-size="22" fill="url(#silverGrad)" letter-spacing="1">KITCH</text>
+  <text x="122" y="27" font-family="'Outfit', sans-serif" font-weight="800" font-size="22" fill="url(#starGrad)" letter-spacing="1">STAR</text>
+  <text x="56" y="41" font-family="'Outfit', sans-serif" font-weight="600" font-size="9" fill="#8d8da3" letter-spacing="5">PREMIUM COOKWARE</text>
+</svg>

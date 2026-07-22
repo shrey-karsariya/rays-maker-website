@@ -1,6 +1,6 @@
 import { Link } from "@tanstack/react-router";
 import { Instagram, Facebook, Youtube, ArrowUpRight } from "lucide-react";
-import raysLogo from "@/assets/rays-logo-transparent.png";
+import kitchstarLogo from "@/assets/kitchstar-logo.svg";
 
 export function Footer() {
   return (
@@ -10,8 +10,8 @@ export function Footer() {
           <div>
             <div className="inline-flex bg-white/95 px-4 py-2.5 rounded-2xl shadow-soft items-center justify-center mb-6 backdrop-blur transition-transform duration-300 hover:scale-102">
               <img
-                src={raysLogo}
-                alt="Rays Maker Logo"
+                src={kitchstarLogo}
+                alt="KitchStar Maker Logo"
                 className="h-8 w-auto object-contain"
               />
             </div>
@@ -67,7 +67,7 @@ export function Footer() {
 
         <div className="mt-16 pt-8 border-t border-white/10 flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
           <p className="text-white/50 text-sm">
-            © {new Date().getFullYear()} Rays Maker. Crafted in India.
+            © {new Date().getFullYear()} KitchStar Maker. Crafted in India.
           </p>
           <div className="flex items-center gap-3">
             {[Instagram, Facebook, Youtube].map((Icon, i) => (

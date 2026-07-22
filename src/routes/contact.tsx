@@ -7,13 +7,13 @@ import { Reveal } from "@/components/Reveal";
 export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
-      { title: "Contact & Dealer Inquiry — Rays Maker" },
+      { title: "Contact & Dealer Inquiry — KitchStar Maker" },
       {
         name: "description",
         content:
-          "Reach the Rays Maker team for support, dealer inquiries or catalogue requests.",
+          "Reach the KitchStar Maker team for support, dealer inquiries or catalogue requests.",
       },
-      { property: "og:title", content: "Contact Rays Maker" },
+      { property: "og:title", content: "Contact KitchStar Maker" },
       { property: "og:description", content: "Talk to us about products, dealership or press." },
     ],
   }),
@@ -46,17 +46,17 @@ function Contact() {
             <ContactCard
               icon={Phone}
               title="Call us"
-              lines={["+91 98000 00000", "Mon – Sat · 10am – 7pm IST"]}
+              lines={["+91 98765 43210", "Mon – Sat · 10am – 7pm IST"]}
             />
             <ContactCard
               icon={Mail}
               title="Email"
-              lines={["hello@raysmaker.in", "dealers@raysmaker.in"]}
+              lines={["hello@kitchstar.com", "dealers@kitchstar.com"]}
             />
             <ContactCard
               icon={MapPin}
               title="Factory & Office"
-              lines={["Industrial Estate, Ludhiana", "Punjab, India — 141001"]}
+              lines={["Plot No. 51, Road C, GIDC Industrial Area", "Rajkot, Gujarat, India — 360023"]}
             />
 
             <div className="aspect-[4/3] rounded-3xl overflow-hidden bg-surface border border-border grid place-items-center text-muted-foreground text-sm">

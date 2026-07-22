@@ -9,9 +9,9 @@ import { Reveal } from "@/components/Reveal";
 export const Route = createFileRoute("/shop")({
   head: () => ({
     meta: [
-      { title: "Shop — Rays Maker Premium Cookware" },
-      { name: "description", content: "Browse pressure cookers, kadais, fry pans, sauce pans, tawas and cookware sets from Rays Maker." },
-      { property: "og:title", content: "Shop Rays Maker Cookware" },
+      { title: "Shop — KitchStar Maker Premium Cookware" },
+      { name: "description", content: "Browse pressure cookers, kadais, fry pans, sauce pans, tawas and cookware sets from KitchStar Maker." },
+      { property: "og:title", content: "Shop KitchStar Maker Cookware" },
       { property: "og:description", content: "Premium Indian cookware — engineered, tested, guaranteed." },
     ],
   }),

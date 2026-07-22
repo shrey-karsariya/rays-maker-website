@@ -45,7 +45,7 @@
 :root {
   --radius: 1rem;
 
-  /* Rays Maker brand - Aligned with logo colors */
+  /* KitchStar Maker brand - Aligned with logo colors */
   --background: oklch(1 0 0);              /* #FFFFFF */
   --foreground: oklch(0.18 0.005 260);     /* #1A1A1A */
   --surface: oklch(0.975 0.003 260);       /* #F7F7F7 */

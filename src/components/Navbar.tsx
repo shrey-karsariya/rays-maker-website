@@ -2,7 +2,7 @@ import { Link, useRouterState } from "@tanstack/react-router";
 import { motion, useScroll, useMotionValueEvent } from "motion/react";
 import { useState } from "react";
 import { Menu, Search, ShoppingBag, Heart, X } from "lucide-react";
-import raysLogo from "@/assets/rays-logo-transparent.png";
+import kitchstarLogo from "@/assets/kitchstar-logo.svg";
 import { useAppStore } from "@/context/AppContext";
 import { SearchModal } from "@/components/SearchModal";
 import { WishlistDrawer } from "@/components/WishlistDrawer";
@@ -39,8 +39,8 @@ export function Navbar() {
         <div className="mx-auto max-w-7xl px-6 lg:px-10 h-16 md:h-20 flex items-center justify-between">
           <Link to="/" className="flex items-center group">
             <img
-              src={raysLogo}
-              alt="Rays Maker Logo"
+              src={kitchstarLogo}
+              alt="KitchStar Maker Logo"
               className="h-10 md:h-12 w-auto object-contain transition-transform duration-300 group-hover:scale-102"
             />
           </Link>

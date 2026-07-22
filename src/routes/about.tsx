@@ -8,13 +8,13 @@ import lifestyle from "@/assets/lifestyle-kitchen.jpg";
 export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
-      { title: "About — Rays Maker" },
+      { title: "About — KitchStar Maker" },
       {
         name: "description",
         content:
-          "Rays Maker is a premium Indian cookware brand — designed, manufactured and quality-tested in India.",
+          "KitchStar Maker is a premium Indian cookware brand — designed, manufactured and quality-tested in India.",
       },
-      { property: "og:title", content: "About Rays Maker" },
+      { property: "og:title", content: "About KitchStar Maker" },
       { property: "og:description", content: "Made in India cookware, engineered for every kitchen." },
       { property: "og:image", content: lifestyle },
     ],
@@ -30,7 +30,7 @@ function About() {
         <div className="max-w-4xl">
           <Reveal>
             <p className="text-[11px] uppercase tracking-[0.25em] text-accent font-medium mb-4">
-              About Rays Maker
+              About KitchStar Maker
             </p>
           </Reveal>
           <Reveal delay={0.05}>
@@ -59,7 +59,7 @@ function About() {
         >
           <img
             src={manufacturing}
-            alt="Rays Maker manufacturing floor in India"
+            alt="KitchStar Maker manufacturing floor in India"
             className="w-full h-full object-cover"
             loading="lazy"
           />
@@ -106,7 +106,7 @@ function About() {
             </h2>
             <p className="mt-6 text-muted-foreground text-lg leading-relaxed max-w-xl">
               We aren't chasing trends. We test every prototype in real Indian kitchens across
-              cities, cuisines and climates before it earns the Rays Maker mark.
+              cities, cuisines and climates before it earns the KitchStar Maker mark.
             </p>
             <Link
               to="/shop"

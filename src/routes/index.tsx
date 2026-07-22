@@ -12,7 +12,7 @@ import lifestyle from "@/assets/lifestyle-kitchen.jpg";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Rays Maker — Premium Cookware, Crafted in India" },
+      { title: "KitchStar Maker — Premium Cookware, Crafted in India" },
       {
         name: "description",
         content:
@@ -214,7 +214,7 @@ function WhyUs() {
       <div className="mx-auto max-w-7xl">
         <div className="mb-16">
           <SectionHeader
-            eyebrow="Why Rays Maker"
+            eyebrow="Why KitchStar Maker"
             title="Six reasons we're on this stove."
             desc="Because a kitchen tool should earn its place — not fill a cupboard."
           />
@@ -299,7 +299,7 @@ function FeatureBanner() {
         <div className="relative rounded-[2rem] overflow-hidden aspect-video md:aspect-[4/5] shadow-luxe">
           <img
             src={lifestyle}
-            alt="Warm Indian kitchen with Rays Maker cookware"
+            alt="Warm Indian kitchen with KitchStar Maker cookware"
             loading="lazy"
             className="absolute inset-0 w-full h-full object-cover"
           />
@@ -385,7 +385,7 @@ function Testimonials() {
 
 function FAQ() {
   const items = [
-    ["Is Rays Maker cookware induction compatible?", "Our stainless steel and hard anodized ranges are compatible with both gas and induction. Product pages list compatibility per SKU."],
+    ["Is KitchStar Maker cookware induction compatible?", "Our stainless steel and hard anodized ranges are compatible with both gas and induction. Product pages list compatibility per SKU."],
     ["What warranty do you offer?", "Our Signature Stainless range carries a 10-year warranty. Hard anodized and aluminium ranges carry 2–5 years."],
     ["Do you ship pan-India?", "Yes. We ship across India with 3–7 day delivery to most PIN codes."],
     ["How do I become a dealer?", "Submit a dealer inquiry on our Contact page — our team will reach out within 48 hours."],

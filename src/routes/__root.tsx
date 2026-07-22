@@ -77,15 +77,15 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Rays Maker — Premium Cookware, Crafted in India" },
+      { title: "KitchStar Maker — Premium Cookware, Crafted in India" },
       {
         name: "description",
         content:
-          "Rays Maker crafts premium pressure cookers, kadais, fry pans and cookware for every Indian kitchen. Best Never Lies.",
+          "KitchStar Maker crafts premium pressure cookers, kadais, fry pans and cookware for every Indian kitchen. Crafted for Excellence.",
       },
-      { name: "author", content: "Rays Maker" },
+      { name: "author", content: "KitchStar Maker" },
       { name: "theme-color", content: "#111439" },
-      { property: "og:title", content: "Rays Maker — Premium Cookware" },
+      { property: "og:title", content: "KitchStar Maker — Premium Cookware" },
       {
         property: "og:description",
         content:
@@ -141,7 +141,7 @@ function RootComponent() {
 
         {/* Floating WhatsApp Widget */}
         <a
-          href="https://wa.me/919999999999?text=Hello%20Rays%20Maker%2C%20I%20am%20interested%20in%20your%20premium%20cookware%20range."
+          href="https://wa.me/919876543210?text=Hello%20KitchStar%20Maker%2C%20I%20am%20interested%20in%20your%20premium%20cookware%20range."
           target="_blank"
           rel="noopener noreferrer"
           className="fixed bottom-6 right-6 z-50 flex items-center justify-center w-14 h-14 bg-[#25D366] text-white rounded-full shadow-luxe hover:bg-[#20ba5a] hover:scale-108 transition-all duration-300 group"

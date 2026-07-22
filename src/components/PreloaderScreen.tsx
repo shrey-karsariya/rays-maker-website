@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "motion/react";
-import raysLogo from "@/assets/rays-logo-transparent.png";
+import kitchstarLogo from "@/assets/kitchstar-logo.svg";
 
 export function PreloaderScreen() {
   const [visible, setVisible] = useState(true);
@@ -38,8 +38,8 @@ export function PreloaderScreen() {
             className="flex flex-col items-center gap-4"
           >
             <motion.img
-              src={raysLogo}
-              alt="Rays Maker"
+              src={kitchstarLogo}
+              alt="KitchStar Maker"
               className="w-28 h-28 object-contain"
               animate={{ y: [0, -5, 0] }}
               transition={{ duration: 2.5, repeat: Infinity, ease: "easeInOut" }}
@@ -53,7 +53,7 @@ export function PreloaderScreen() {
                 className="text-[11px] tracking-[0.32em] uppercase text-muted-foreground font-medium"
                 style={{ fontFamily: "'Inter', sans-serif" }}
               >
-                Best Never Lies
+                Crafted for Excellence
               </motion.p>
             </div>
           </motion.div>

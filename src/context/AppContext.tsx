@@ -36,11 +36,11 @@ export function AppContextProvider({ children }: { children: ReactNode }) {
   // Load from localStorage on mount (safe for SSR)
   useEffect(() => {
     try {
-      const storedCart = localStorage.getItem("rays_cart");
+      const storedCart = localStorage.getItem("kitchstar_cart");
       if (storedCart) {
         setCart(JSON.parse(storedCart));
       }
-      const storedWishlist = localStorage.getItem("rays_wishlist");
+      const storedWishlist = localStorage.getItem("kitchstar_wishlist");
       if (storedWishlist) {
         setWishlist(JSON.parse(storedWishlist));
       }
@@ -54,7 +54,7 @@ export function AppContextProvider({ children }: { children: ReactNode }) {
   useEffect(() => {
     if (!isLoaded) return;
     try {
-      localStorage.setItem("rays_cart", JSON.stringify(cart));
+      localStorage.setItem("kitchstar_cart", JSON.stringify(cart));
     } catch (e) {
       console.error("Failed to save cart to local storage", e);
     }
@@ -64,7 +64,7 @@ export function AppContextProvider({ children }: { children: ReactNode }) {
   useEffect(() => {
     if (!isLoaded) return;
     try {
-      localStorage.setItem("rays_wishlist", JSON.stringify(wishlist));
+      localStorage.setItem("kitchstar_wishlist", JSON.stringify(wishlist));
     } catch (e) {
       console.error("Failed to save wishlist to local storage", e);
     }

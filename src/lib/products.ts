@@ -366,10 +366,10 @@ export const PRODUCTS: Product[] = [
     specs: { Capacity: "5.5 Litres", Material: "Virgin Aluminium", Warranty: "5 Years" },
   },
 
-  // 6. Rays Concave Tawa
+  // 6. KitchStar Concave Tawa
   {
     id: "rm-tawa-225-3",
-    name: "Rays Concave Tawa",
+    name: "KitchStar Concave Tawa",
     category: "Tawa",
     material: "Hard Anodized",
     size: "225 mm (3 mm)",
@@ -383,7 +383,7 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: "rm-tawa-225-4",
-    name: "Rays Concave Tawa",
+    name: "KitchStar Concave Tawa",
     category: "Tawa",
     material: "Hard Anodized",
     size: "225 mm (4 mm)",
@@ -398,7 +398,7 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: "rm-tawa-250-3",
-    name: "Rays Concave Tawa",
+    name: "KitchStar Concave Tawa",
     category: "Tawa",
     material: "Hard Anodized",
     size: "250 mm (3 mm)",
@@ -412,7 +412,7 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: "rm-tawa-250-4",
-    name: "Rays Concave Tawa",
+    name: "KitchStar Concave Tawa",
     category: "Tawa",
     material: "Hard Anodized",
     size: "250 mm (4 mm)",
@@ -426,10 +426,10 @@ export const PRODUCTS: Product[] = [
     specs: { Diameter: "250 mm", Thickness: "4 mm", Material: "Hard Anodized", Warranty: "2 Years" },
   },
 
-  // 7. Rays Cookware Sets
+  // 7. KitchStar Cookware Sets
   {
     id: "rm-set-tasra-6pc",
-    name: "Rays Triply Tasra Set",
+    name: "KitchStar Triply Tasra Set",
     category: "Cookware Set",
     material: "Stainless Steel",
     size: "6 Pieces",
@@ -444,7 +444,7 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: "rm-set-tope-6pc",
-    name: "Rays Triply Tope Set",
+    name: "KitchStar Triply Tope Set",
     category: "Cookware Set",
     material: "Stainless Steel",
     size: "6 Pieces",
